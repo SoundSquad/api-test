@@ -1,0 +1,293 @@
+{
+  "family": false,
+  "_links": {
+    "self": {
+      "href": "/discovery/v2/classifications/KZAyXgnZfZ7v7lt?locale=en-us"
+    }
+  },
+  "type": {
+    "id": "KZAyXgnZfZ7v7lt",
+    "name": "Event Style",
+    "locale": "en-us",
+    "primaryId": "dataAdmin-type-00000000000003fd",
+    "_links": {
+      "self": {
+        "href": "/discovery/v2/classifications/types/KZAyXgnZfZ7v7lt?locale=en-us"
+      }
+    },
+    "_embedded": {
+      "subtypes": [
+        {
+          "id": "KZFzBErXgnZfZ7vA6e",
+          "name": "Audio/Visual",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vA6e?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAAn",
+          "name": "Award Show",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAAn?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAk1",
+          "name": "Ceremony",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAk1?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vA6d",
+          "name": "Charity/Benefit",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vA6d?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vA67",
+          "name": "Children's Festival",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vA67?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAkJ",
+          "name": "Competition",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAkJ?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vA6J",
+          "name": "Concert",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vA6J?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vA66",
+          "name": "Convention",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vA66?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vA6t",
+          "name": "Ensemble",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vA6t?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAkI",
+          "name": "Especiales",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAkI?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vA6I",
+          "name": "Exhibit",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vA6I?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vA6k",
+          "name": "Expo",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vA6k?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAF7",
+          "name": "Fan Experiences",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAF7?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vA6E",
+          "name": "Festival",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vA6E?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAAF",
+          "name": "Graduation/Commencement",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAAF?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAkt",
+          "name": "Lecture/Seminar",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAkt?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAAJ",
+          "name": "Parade",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAAJ?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAkl",
+          "name": "Party/Gala",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAkl?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vA61",
+          "name": "Race",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vA61?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAvv",
+          "name": "Sightseeing/Facility",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAvv?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vA6A",
+          "name": "Student Festival",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vA6A?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vA6F",
+          "name": "Swap Meet/Market",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vA6F?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vA6n",
+          "name": "Test Event",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vA6n?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vA6v",
+          "name": "Tour",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vA6v?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAAt",
+          "name": "Touring Show/Production",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAAt?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAFE",
+          "name": "Virtual",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAFE?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAAv",
+          "name": "Undefined",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAAv?locale=en-us"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

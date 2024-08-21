@@ -1,0 +1,203 @@
+{
+  "family": false,
+  "_links": {
+    "self": {
+      "href": "/discovery/v2/classifications/KZAyXgnZfZ7v7la?locale=en-us"
+    }
+  },
+  "type": {
+    "id": "KZAyXgnZfZ7v7la",
+    "name": "Individual",
+    "locale": "en-us",
+    "primaryId": "dataAdmin-type-00000000000003f8",
+    "_links": {
+      "self": {
+        "href": "/discovery/v2/classifications/types/KZAyXgnZfZ7v7la?locale=en-us"
+      }
+    },
+    "_embedded": {
+      "subtypes": [
+        {
+          "id": "KZFzBErXgnZfZ7vAdl",
+          "name": "Actor",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAdl?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAdn",
+          "name": "Artist",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAdn?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAdt",
+          "name": "Athlete",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAdt?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAdI",
+          "name": "Character",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAdI?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAdE",
+          "name": "Choreographer",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAdE?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAdJ",
+          "name": "Comedian",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAdJ?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAd1",
+          "name": "Conductor",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAd1?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAda",
+          "name": "Dancer",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAda?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAdF",
+          "name": "Designer",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAdF?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAd6",
+          "name": "Director",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAd6?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAdk",
+          "name": "Driver",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAdk?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAel",
+          "name": "Individual",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAel?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAdA",
+          "name": "Magician",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAdA?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAd7",
+          "name": "Musician",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAd7?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAdd",
+          "name": "Performer",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAdd?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAde",
+          "name": "Singer/Vocalist",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAde?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAdv",
+          "name": "Speaker",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAdv?locale=en-us"
+            }
+          }
+        },
+        {
+          "id": "KZFzBErXgnZfZ7vAen",
+          "name": "Writer",
+          "locale": "en-us",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/classifications/subtypes/KZFzBErXgnZfZ7vAen?locale=en-us"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
