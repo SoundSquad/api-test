@@ -44,6 +44,7 @@ Singer/vocalist: KZFzBErXgnZfZ7vAde
 
 
 // attractions: artist
+// total: 3960 artists
 
 exports.getArtists = async(req, res) => {
     try {
@@ -60,4 +61,5 @@ exports.getArtists = async(req, res) => {
         console.error(err);
     }
 }
+
 
