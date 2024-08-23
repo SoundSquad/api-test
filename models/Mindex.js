@@ -1,7 +1,6 @@
 const { DataTypes, Sequelize } = require("sequelize"); 
-const { USE } = require("sequelize/lib/index-hints");
 
-const config = require(__dirname + "/../config/config.js"); // db 연결 정보
+const config = require(__dirname + "/../config/config.json")['development']; // db 연결 정보
 const db = {}; // 빈 객체
 
 const sequelize = new Sequelize(
@@ -11,3 +10,25 @@ const sequelize = new Sequelize(
   config
 ); // sequelize 객체
 
+const ArtistsModel = require('./Martists')(sequelize, Sequelize);
+
+async function syncModels() {
+  try {
+    let flag = false;
+    // ArtistsModel 테이블 먼저 생성
+    await ArtistsModel.sync({ force: flag });
+    console.log("*** Artists table created");
+
+    console.log("All tables created successfully");
+  } catch (error) {
+    console.error("Error creating tables:", error);
+  }
+}
+
+syncModels();
+
+db.sequelize = sequelize;
+db.Sequelize = Sequelize;
+db.Artists = ArtistsModel;
+
+module.exports = db;
