@@ -3,7 +3,8 @@ const path = require('path');
 const fs = require('fs');
 const dotenv = require('dotenv');
 const { Artists } = require('../models/Mindex');
-const genreList = require('./classificationID_music.json')["segment"]["_embedded"]["genres"];
+// const genreList = require('./classificationID_music.json')["segment"]["_embedded"]["genres"];
+const genreList = [{name: 'Alternative', id: 'KnvZfZ7vAvv'}];
 
 dotenv.config({
     path: path.resolve(__dirname, ".env"),
@@ -21,20 +22,6 @@ exports.getArtistsInit = async (req, res) => {
         let totalArtists = 0;
         let sizePage = 0;
         let cntArtists = 0;
-        // const artistLists = await axios({
-        //     method: 'GET',
-        //     url: `https://app.ticketmaster.com/discovery/v2/attractions?apikey=${API_KEY}&locale=*&classificationId=${classificationID}`
-        // });
-        // console.log(artistLists.data._embedded.attractions[0].name);
-        // console.log(artistLists.data._embedded.attractions[0].id);
-        // console.log(artistLists.data._embedded.attractions[0].images[0].url);
-        // console.log(artistLists.data.page.totalPages);
-        // console.log(artistLists.data.page.totalElements);
-        // console.log(artistLists.data.page.size);
-
-        // totalPage = artistLists.data.page.totalPages;
-        // totalArtists = artistLists.data.page.totalElements;
-        // sizePage = artistLists.data.page.size;
         let bulkArtists = [];
         let tmpInfo = [];
         genreList.forEach(async (element) => {
@@ -87,6 +74,7 @@ exports.getArtistsInit = async (req, res) => {
         // 받아온 아티스트의 수가 API 전체의 아티스트 수와 같으면 db에 bulkcreate
         if(bulkArtists.length === totalArtists) {
             const artists = await Artists.bulkCreate(bulkArtists);
+            console.log("SUCCESS!");
         }
 
 

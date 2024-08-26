@@ -1,0 +1,24 @@
+0 || Alternative || KnvZfZ7vAvv
+1 || Ballads/Romantic || KnvZfZ7vAve
+2 || Blues || KnvZfZ7vAvd
+3 || Chanson Francaise || KnvZfZ7vAvA
+4 || Children's Music || KnvZfZ7vAvk
+5 || Classical || KnvZfZ7vAeJ
+6 || Country || KnvZfZ7vAv6
+7 || Dance/Electronic || KnvZfZ7vAvF
+8 || Folk || KnvZfZ7vAva
+9 || Hip-Hop/Rap || KnvZfZ7vAv1
+10 || Holiday || KnvZfZ7vAvJ
+11 || Jazz || KnvZfZ7vAvE
+12 || Latin || KnvZfZ7vAJ6
+13 || Medieval/Renaissance || KnvZfZ7vAvI
+14 || Metal || KnvZfZ7vAvt
+15 || New Age || KnvZfZ7vAvn
+16 || Other || KnvZfZ7vAvl
+17 || Pop || KnvZfZ7vAev
+18 || R&B || KnvZfZ7vAee
+19 || Reggae || KnvZfZ7vAed
+20 || Religious || KnvZfZ7vAe7
+21 || Rock || KnvZfZ7vAeA
+22 || Undefined || KnvZfZ7vAe6
+23 || World || KnvZfZ7vAeF
