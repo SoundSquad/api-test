@@ -3,8 +3,8 @@ const path = require('path');
 const fs = require('fs');
 const dotenv = require('dotenv');
 const { Artists } = require('../models/Mindex');
-// const genreList = require('./classificationID_music.json')["segment"]["_embedded"]["genres"];
-const genreList = [{name: 'Alternative', id: 'KnvZfZ7vAvv'}];
+const genreList = require('./classificationID_music.json')["segment"]["_embedded"]["genres"];
+// const genreList = [{name: 'Alternative', id: 'KnvZfZ7vAvv'}];
 
 dotenv.config({
     path: path.resolve(__dirname, ".env"),
@@ -42,7 +42,7 @@ exports.getArtistsInit = async (req, res) => {
                     });
                     await sleep(1000);
                     for(let i = 0; i < sizePage; i++) {
-                        if(i < artistLists.data._embedded.attractions?.length) {
+                        if(i < artistLists.data._embedded.attractions.length) {
                             console.log(`page: ${page}, ${i}th size, ${cntArtists}th artist, Genre: ${element.name}`, artistLists.data._embedded.attractions[i].name);
                             cntArtists++;
                             bulkArtists.push({
@@ -50,35 +50,38 @@ exports.getArtistsInit = async (req, res) => {
                                 artist_name: artistLists.data._embedded.attractions[i].name,
                                 artist_profile: artistLists.data._embedded.attractions[i].images[0].url
                             });
-                            tmpInfo.push({
-                                genre: element.name,
-                                genreID: element.id,
-                                artist_number: cntArtists
-                            });
+                            
+                        } else {
+                            console.log('else statement >>>>> ', artistLists);
+                            break;
                         }
                         
                     }
+                    tmpInfo.push({
+                        genre: element.name,
+                        genreID: element.id,
+                        artist_number: cntArtists
+                    });
+                    // 받아온 아티스트의 수가 API 전체의 아티스트 수와 같으면 db에 bulkcreate
+                    if(bulkArtists.length === totalArtists) {
+                        const artists = await Artists.bulkCreate(bulkArtists);
+                        const writeJsonFilePath = path.join(__dirname, `artists_${element.name}.json`);
+                        fs.writeFileSync(writeJsonFilePath, JSON.stringify(bulkArtists));
+                        console.log("SUCCESS!");
+                    }
                 }
-                
+                let sum = 0;
+                tmpInfo.forEach((e) => {
+                    sum += e.artist_number;
+                    console.log(`${e.genre} || ${e.genreID} || ${e.artist_number}`);
+                });
+                console.log('TOTAL ARTIST FETCHED >>>> ', sum);
+                res.send(true);
             } catch (err) {
                 console.error(err);
             }
-            
         })
-        let sum = 0;
-        tmpInfo.forEach((e) => {
-            sum += e.artist_number;
-            console.log(`${e.genre} || ${e.genreID} || ${e.artist_number}`);
-        });
-        console.log('TOTAL ARTIST FETCHED >>>> ', sum);
-        // 받아온 아티스트의 수가 API 전체의 아티스트 수와 같으면 db에 bulkcreate
-        if(bulkArtists.length === totalArtists) {
-            const artists = await Artists.bulkCreate(bulkArtists);
-            console.log("SUCCESS!");
-        }
-
-
-        res.send(true);
+        
     } catch (err) {
         console.error(err);
     }
