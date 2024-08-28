@@ -3,8 +3,8 @@ const path = require('path');
 const fs = require('fs');
 const dotenv = require('dotenv');
 const { Artists } = require('../models/Mindex');
-const genreList = require('./classificationID_music.json')["segment"]["_embedded"]["genres"];
-// const genreList = [{name: 'Alternative', id: 'KnvZfZ7vAvv'}];
+// const genreList = require('./classificationID_music.json')["segment"]["_embedded"]["genres"];
+const genreList = [{name: 'Reggae', id: 'KnvZfZ7vAed'}];
 
 dotenv.config({
     path: path.resolve(__dirname, ".env"),
@@ -21,11 +21,12 @@ exports.getArtistsInit = async (req, res) => {
         let totalPage = 0;
         let totalArtists = 0;
         let sizePage = 0;
-        let cntArtists = 0;
+        
         let bulkArtists = [];
         let tmpInfo = [];
         genreList.forEach(async (element) => {
             try {
+                let cntArtists = 0;
                 let genreId = element.id;
                 cntArtists = 0;
                 const artistLists = await axios({
