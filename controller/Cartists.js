@@ -56,7 +56,6 @@ exports.getArtistsInit = async (req, res) => {
                             console.log('else statement >>>>> ', artistLists);
                             break;
                         }
-                        
                     }
                     tmpInfo.push({
                         genre: element.name,
@@ -87,3 +86,4 @@ exports.getArtistsInit = async (req, res) => {
         console.error(err);
     }
 }
+
